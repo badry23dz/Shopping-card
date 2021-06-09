@@ -1,0 +1,165 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("./Images/rolex.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+
+.pannier-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.pannier-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pannier-row {
+    display: flex;
+}
+
+.pannier-article {
+    width: 50%;
+}
+
+.pannier-prix {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.btn-delete {
+    margin: auto;
+    width: 30px;
+    height: auto;
+
+}
+
+.pannier-quantite {
+
+    width: 15%;
+}
+
+.pannier-totals {
+    width: 15%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.local-totals {
+    width: 15%;
+    font-size: 1.2em;
+    color: #333;
+    margin: auto;
+}
+
+.pannier-article-titre {
+    color: #333;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.pannier-article-image {
+    width: 75px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.like {
+    margin: auto;
+    width: 30px;
+    height: auto;
+}
+
+.btn-plus {
+    vertical-align: middle;
+    border-radius: 6px;
+    margin-right: 25%;
+    background-color: rgba(0, 219, 128, 0.568);
+
+}
+
+.btn-minus {
+    vertical-align: middle;
+    border-radius: 6px;
+    margin-left: 25%;
+    background-color: rgba(219, 0, 0, 0.568);
+}
+
+
+.quantite {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.pannier-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.pannier-row:last-child .pannier-column {
+    border: none;
+}
+
+.pannier-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.pannier-total-titre {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.pannier-total-prix {
+    color: #333;
+    font-size: 1.1em;
+}
+
